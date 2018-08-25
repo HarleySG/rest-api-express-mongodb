@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-express-mongodb",
+  "version": "1.0.0",
+  "description": "rest api usando express mongodb y features de ecmascript 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarleySG/rest-api-express-mongodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "ecmascript",
+    "6"
+  ],
+  "author": "Harley Santos Garzón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarleySG/rest-api-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/HarleySG/rest-api-express-mongodb#readme",
+  "dependencies": {
+    "npm": "^6.4.0"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "rest api usando express mongodb y features de ecmascript 6",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,8 +15,7 @@
     "nodejs",
     "express",
     "mongodb",
-    "ecmascript",
-    "6"
+    "ecmascript 6"
   ],
   "author": "Harley Santos Garzón",
   "license": "MIT",
@@ -24,6 +24,13 @@
   },
   "homepage": "https://github.com/HarleySG/rest-api-express-mongodb#readme",
   "dependencies": {
-    "npm": "^6.4.0"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }

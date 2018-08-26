@@ -2,8 +2,8 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const express = require('express');
-    // DEFINE ROUTES
-    const routeUsers = require('./routes/route.users')
+// DEFINE ROUTES
+const routeUsers = require('./routes/route.users')
 const app = express();
 
 // MONGODB
